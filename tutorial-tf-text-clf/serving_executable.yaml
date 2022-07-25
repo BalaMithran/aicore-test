@@ -25,7 +25,7 @@ spec:
           - name: docker-registry-secret
         containers:
         - name: kfserving-container
-          image: "docker.io/YOUR_DOCKER_USER_NAME/movie-review-clf-serve:0.0.1"
+          image: "docker.io/mithranbala123/movie-review-clf-serve:0.0.1"
           ports:
             - containerPort: 9001
               protocol: TCP
